@@ -137,9 +137,9 @@
 		3028E02127390730002C905E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3028E02627396722002C905E /* BottomCurve.swift */,
 				3028E022273907A9002C905E /* CustomTabBar.swift */,
 				3028E02427392DD0002C905E /* MaterialEffect.swift */,
-				3028E02627396722002C905E /* BottomCurve.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
