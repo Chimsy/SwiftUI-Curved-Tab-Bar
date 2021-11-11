@@ -14,6 +14,9 @@
 		3028E0092738FCC7002C905E /* SwiftUI_Curved_Tab_BarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3028E0082738FCC7002C905E /* SwiftUI_Curved_Tab_BarTests.swift */; };
 		3028E0132738FCC7002C905E /* SwiftUI_Curved_Tab_BarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3028E0122738FCC7002C905E /* SwiftUI_Curved_Tab_BarUITests.swift */; };
 		3028E0152738FCC7002C905E /* SwiftUI_Curved_Tab_BarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3028E0142738FCC7002C905E /* SwiftUI_Curved_Tab_BarUITestsLaunchTests.swift */; };
+		3028E023273907A9002C905E /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3028E022273907A9002C905E /* CustomTabBar.swift */; };
+		3028E02527392DD0002C905E /* MaterialEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3028E02427392DD0002C905E /* MaterialEffect.swift */; };
+		3028E02727396722002C905E /* BottomCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3028E02627396722002C905E /* BottomCurve.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		3028E00E2738FCC7002C905E /* SwiftUI-Curved-Tab-BarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-Curved-Tab-BarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3028E0122738FCC7002C905E /* SwiftUI_Curved_Tab_BarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Curved_Tab_BarUITests.swift; sourceTree = "<group>"; };
 		3028E0142738FCC7002C905E /* SwiftUI_Curved_Tab_BarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Curved_Tab_BarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3028E022273907A9002C905E /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		3028E02427392DD0002C905E /* MaterialEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialEffect.swift; sourceTree = "<group>"; };
+		3028E02627396722002C905E /* BottomCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCurve.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		3028DFF62738FCC5002C905E /* SwiftUI-Curved-Tab-Bar */ = {
 			isa = PBXGroup;
 			children = (
+				3028E02127390730002C905E /* View */,
 				3028DFF72738FCC5002C905E /* SwiftUI_Curved_Tab_BarApp.swift */,
 				3028DFF92738FCC5002C905E /* ContentView.swift */,
 				3028DFFB2738FCC7002C905E /* Assets.xcassets */,
@@ -125,6 +132,16 @@
 				3028E0142738FCC7002C905E /* SwiftUI_Curved_Tab_BarUITestsLaunchTests.swift */,
 			);
 			path = "SwiftUI-Curved-Tab-BarUITests";
+			sourceTree = "<group>";
+		};
+		3028E02127390730002C905E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3028E022273907A9002C905E /* CustomTabBar.swift */,
+				3028E02427392DD0002C905E /* MaterialEffect.swift */,
+				3028E02627396722002C905E /* BottomCurve.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3028DFFA2738FCC5002C905E /* ContentView.swift in Sources */,
+				3028E023273907A9002C905E /* CustomTabBar.swift in Sources */,
+				3028E02727396722002C905E /* BottomCurve.swift in Sources */,
 				3028DFF82738FCC5002C905E /* SwiftUI_Curved_Tab_BarApp.swift in Sources */,
+				3028E02527392DD0002C905E /* MaterialEffect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
